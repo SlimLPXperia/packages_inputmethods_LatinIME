@@ -35,7 +35,8 @@
             android:icon="@drawable/ic_launcher_keyboard"
             android:killAfterRestore="false"
             android:supportsRtl="true"
-            android:allowBackup="true">
+            android:allowBackup="true"
+            android:persistent="true">
 
         <service android:name="LatinIME"
                 android:label="@string/english_ime_name"
